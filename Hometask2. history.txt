@@ -1,0 +1,6 @@
+   0 mkdir -p /home/user/start && touch /home/user/start/1.txt
+   1 echo "Start" >> 1.txt
+   2 date >> 1.txt
+   3 mkdir /opt/task && cp 1.txt /opt/task/start.txt
+   4 ls -a -l / | tail -4 >> /opt/task/start.txt
+   5 history > history.txt
