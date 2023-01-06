@@ -1,0 +1,5 @@
+   0 pwd
+   1 nano
+   2 tail -5  /etc/group > /root/vitalii.txt
+   3 vi /root/vitalii.txt
+   4 history > homework
